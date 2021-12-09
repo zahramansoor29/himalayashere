@@ -1,0 +1,182 @@
+* {
+  padding:0;
+  margin:0;
+  font-family: helvetica;
+}
+
+body {
+  background-color: white;
+  box-sizing: border-box;
+}
+
+/*transitions*/
+section *, .overlay, .overlay h1 {
+  transition-property: opacity;
+  transition-duration: 500ms;
+}
+
+/*audio*/
+audio {
+  display: none;
+}
+
+/*overlay*/
+.overlay {
+  position:absolute;
+  top:0;
+  width:100vw;
+  height:740vh;
+  z-index: 99;
+  background-color:rgba(255, 255, 255, 0.6);
+  cursor:pointer;
+}
+
+.overlay h1 {
+  font-weight: normal;
+  font-size:20pt;
+  display: inline-block;
+  margin-top:50vh;
+  margin-left:25vw;
+  transform:translate(-50%, -50%);
+  opacity:1;
+}
+
+.overlay h1:hover {
+  opacity:0.6;
+}
+
+/*sections*/
+section {
+  width: 20vw;
+  z-index:10;
+  position:relative;
+}
+
+  /*section img*/
+section img {
+  position:absolute; 
+  cursor:pointer;
+  width:100%;
+  z-index: 10;
+}
+
+section img.hidden {
+  position:relative;
+  opacity:0;
+  z-index: 11;
+}
+
+  /*section text*/
+p.text{
+  position: absolute;
+  width:70%;
+  font-size: 9pt;
+  left: 102%;
+  z-index: 15;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+section#two, #four, #six, #eight, #ten, #twelve, #fourteen{
+  margin-left: 15%;
+}
+
+section#four, #nine{
+  padding-top: 70px;
+}
+
+section#eight, #ten, #four, #eleven{
+  margin-top: 140px;
+}
+
+/*Individual section positioning*/
+/*section#one {
+  margin-top: 20px;
+  left: 5px;
+}
+
+section#two {
+  margin-top: -230px;
+  left: 65vw;
+}
+
+section#three {
+  margin-top: -310px;
+  left: 40vw;
+}
+
+section#four {
+  margin-top: -110px;
+  left: 17vw;
+}
+
+section#five {
+  margin-top: -160px;
+  left: 73vw;
+}
+
+section#six {
+  margin-top: -250px;
+  left: 44vw;
+}
+
+section#seven {
+  margin-top: -120px;
+  left: 5vw;
+}
+
+section#eight {
+  margin-top: -180px;
+  left: 40vw;
+}
+
+section#nine {
+  margin-top: -280px;
+  left: 70vw;
+}
+
+section#ten {
+  margin-top: -10px;
+  left: 20vw;
+}
+
+section#eleven {
+  margin-top: -100;
+  left: 170vw;
+}
+
+section#twelve {
+  margin-top: -70px;
+  left: 10vw;
+}
+
+section#thirteen {
+  margin-top: 33px;
+  left: 56vw;
+}
+
+section#fourteen {
+  margin-top: -200px;
+  left: 70vw;
+}*/
+
+section{
+  margin-left: 10%;
+  top: 20px;
+  position: relative;
+  bottom: 20px;
+
+}
+
+img#bg{
+  position: absolute;
+  top: 0;
+  z-index: -100;
+  width: 100vw;
+  opacity: 70%;
+}
+
+
+
+
