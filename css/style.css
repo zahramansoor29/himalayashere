@@ -50,6 +50,9 @@ section {
   width: 20vw;
   z-index:10;
   position:relative;
+  margin-left: 10%;
+  top: 20px;
+  bottom: 20px;
 }
 
   /*section img*/
@@ -75,26 +78,6 @@ p.text{
   z-index: 15;
   text-align: justify;
   text-justify: inter-word;
-
-}
-
-section#two, #four, #six, #eight, #ten, #twelve, #fourteen{
-  margin-left: 15%;
-}
-
-section#four, #nine{
-  padding-top: 70px;
-}
-
-section#eight, #ten, #four, #eleven{
-  margin-top: 140px;
-}
-
-section{
-  margin-left: 10%;
-  top: 20px;
-  position: relative;
-  bottom: 20px;
 
 }
 
