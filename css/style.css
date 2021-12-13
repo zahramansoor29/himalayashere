@@ -69,7 +69,7 @@ section img.hidden {
   /*section text*/
 p.text{
   position: absolute;
-  width:70%;
+  width:80%;
   font-size: 9pt;
   left: 102%;
   z-index: 15;
