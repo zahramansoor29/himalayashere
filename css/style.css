@@ -54,6 +54,10 @@ section {
 
 }
 
+section #two, #four, #six, #eight, #ten, #twelve, #fourteen{
+  margin-left: 18%;
+}
+
   /*section img*/
 section img {
   position:absolute; 
