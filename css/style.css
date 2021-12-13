@@ -55,7 +55,7 @@ section {
 
 }
 
-section #two, #four, #six, #eight, #ten, #twelve, #fourteen{
+section#two, #four, #six, #eight, #ten, #twelve, #fourteen{
   margin-left: 18%;
 }
 
