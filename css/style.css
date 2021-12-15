@@ -97,6 +97,11 @@ img#bg{
   opacity: 70%;
 }
 
+a{
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 80%;
+}
 
 
 
