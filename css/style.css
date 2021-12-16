@@ -101,7 +101,7 @@ img#bg{
 article{
   position: absolute;
   z-index: 90;
-  right: 10vw;
+  right: 8vw;
   height: 8vh;
   font-size: 12pt;
 }
