@@ -100,10 +100,8 @@ img#bg{
 
 div{
   position: absolute;
-  margin-top: 15vh;
-  right: 5vw;
-  z-index: 10000;
-  height: 20px;
+  z-index: 90;
+  height: 5px;
 }
 
 
