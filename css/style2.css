@@ -12,13 +12,11 @@ body {
 
 article{
   position: absolute;
-  margin-top: 15vh;
-  right: 5vw;
-  z-index: 10000;
-  width: 5vw;
-font-size: 12pt;
+  z-index: 90;
+  right: 10vw;
+  height: 8vh;
+  font-size: 12pt;
 }
-
 
 
 img{
