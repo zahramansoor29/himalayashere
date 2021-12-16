@@ -97,11 +97,12 @@ img#bg{
   opacity: 70%;
 }
 
-a{
+img#button{
   position: absolute;
   margin-top: 15vh;
   right: 5vw;
   z-index: 10000;
+  width: 5vw;
 }
 
 
